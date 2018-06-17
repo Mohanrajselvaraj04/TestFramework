@@ -11,7 +11,7 @@ public class Hook extends SeMethods {
         
         startResult();
         startTestModule(sc.getName(), sc.getId());
-        test = startTestCase(testNodes);
+        test = startTestCase("nodename");
         test.assignCategory("Smoke");
         test.assignAuthor("Mohanraj");
         startApp("Chrome");  

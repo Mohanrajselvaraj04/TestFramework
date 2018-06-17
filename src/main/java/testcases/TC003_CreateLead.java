@@ -18,7 +18,7 @@ public class TC003_CreateLead extends ProjectMethods{
 		authors="Gopi";
 		browserName="chrome";
 		dataWorkbookName="TC001";
-		sheetName="Createlead";
+		sheetName="Sheet1";
 	}
 	
 	@Test(dataProvider="fetchData")	

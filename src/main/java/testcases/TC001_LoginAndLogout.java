@@ -16,6 +16,7 @@ public class TC001_LoginAndLogout extends ProjectMethods{
 		authors="Gopi";
 		browserName="chrome";
 		dataWorkbookName="TC001";
+		sheetName="Sheet1";
 	}
 	@Test(dataProvider="fetchData")
 	public void loginAndLogout(String uName,String pwd,String vName) {

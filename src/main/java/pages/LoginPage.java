@@ -12,8 +12,9 @@ import Steps.Hook;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import wdMethods.ProjectMethods;
+import wdMethods.SeMethods;
 
-public class LoginPage extends Hook{
+public class LoginPage extends SeMethods{
 	
 	public LoginPage() {
 		PageFactory.initElements(driver,this);
